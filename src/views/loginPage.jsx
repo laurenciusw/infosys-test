@@ -226,21 +226,21 @@ export default function LoginPage() {
           </div>
         </div>
 
-        <div className="md:w-1/2 bg-[#6941C6] border-white border-[20px] h-screen flex flex-col justify-center items-center relative">
+        <div className="md:w-1/2 bg-[#6941C6] border-white border-[20px] min-h-screen flex flex-col justify-center items-center relative">
           <img
             src={logo}
             alt="logo"
-            className="max-w-full absolute top-5 left-5"
+            className="max-w-full md:absolute top-5 left-5 w-max h-max md:w-max md:h-max"
           />
 
-          <div className="max-w-md mt-4">
+          <div className="max-w-md mt-4 text-center md:text-left">
             <img
               src={revenue}
               alt="logo"
               className="max-w-full rounded-md border border-white w-max h-max"
             />
 
-            <h2 className="text-4xl font-semibold mb-4 font-inter text-white text-center p-5">
+            <h2 className="text-3xl md:text-3xl font-semibold mb-4 font-inter text-white mt-4 text-center">
               Get Better with Money
             </h2>
           </div>
